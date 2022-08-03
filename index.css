@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #d6d2c4;
+    color: #000000;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.about-me-container{
+    display: flex;
+    margin: 1em;
+}
+
+.about-me-text-container{
+    display: block;
+}
+
+p {
+    display: block;
+    padding: 0em 2em 1em 0em;
+    text-align: justify;
+}
+
+.portrait{
+    height: 600px;
+    width: 450px;
+    padding-top: 5%;
+}
+
+#projects{
+    margin: 1em;
+}
+
+@media only screen and (max-width: 800px){
+    .about-me-container{
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .about-me-container{
+        display: inline-block;
+    }
+    .portrait {
+        display: none;
+    }
+}
+
