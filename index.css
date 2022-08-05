@@ -19,6 +19,11 @@ nav {
     margin-bottom: 0em;
 }
 
+#name a {
+    text-decoration: none;
+    color: black;
+}
+
 .navigation-items {
     display: inline-block;
     padding: 0em 1em;
@@ -53,6 +58,10 @@ p {
     text-align: justify;
     word-spacing: 0.1em;
     line-height: 1.4em;
+}
+
+.contact {
+    margin-left: 1em;
 }
 
 .portrait{
