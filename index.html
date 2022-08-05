@@ -7,6 +7,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Taviraj&family=Work+Sans&display=swap" rel="stylesheet">
+        <script src="motivationalMessages.js"></script>
     </head>
     <body>
         <nav>
@@ -42,15 +43,24 @@
                             resources in Paris, France, and Tokyo, Japan.
                         </p>
                         <p>
-                            In my spare time, I like keeping fit and reading fiction. Some of my favourite authors are
-                            Ishiguro, Yanagihara, Dostoevsky, and Dickens.
+                            In my spare time, I enjoy swimming in ponds and lakes, as well as in the sea when I can get
+                            there, and reading fiction. Some of my favourite authors are Ishiguro, Yanagihara,
+                            Dostoevsky, and Dickens.
                         </p>
                     </div>
-                    <img src="./profilePic.jpg" alt="A photo of Harry Dobbs" class="portrait">
+                    <figure>
+                        <img src="./profilePic.jpg" alt="A photo of Harry Dobbs" class="portrait">
+                        <figcaption> Exploring the Cornwall coastline</figcaption>
+                    </figure>
                 </div>
             </section>
+            <section id="motivational">
+                <h2>Motivational Message</h2>
+                <p id='demo'>Click on the button below for a motivational message!</p>
+                <button onclick="generateRandomMessage()">Try it</button>
+            </section>
             <section id="projects">
-                <h2>Projects</h2>
+                <h2>Projects - click the arrows for more details</h2>
                 <details class="project">
                     <summary class ="project-title">
                         <h3>Mixed Messages (JavaScript)</h3>
@@ -87,15 +97,27 @@
             <section id="skills">
                 <h2>Skills</h2>
                 <div id="skills-container">
-                    <img src="./javascript-html5-and-css-logos.png" alt="HTML, JavaScript and CSS logos" class="skills-image">
+                    <figure>
+                        <img src="./HTML5_1Color_Black.png" alt="HTML logo">
+                        <figcaption>HTML</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./1200px-CSS.3.svg.png" alt="CSS logo">
+                        <figcaption>CSS</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./javascript-logo.png" alt="JavaScript logo">
+                        <figcaption>JavaScript</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="git-icon.png" alt="Git logo">
+                        <figcaption>Git</figcaption>
+                    </figure>
                 </div>
             </section>
         </main>
         <footer>
             Made in the UK
         </footer>
-        <script>
-            //need to add JavaScript here, maybe the random sentence generator
-        </script>
     </body>
 </html>
